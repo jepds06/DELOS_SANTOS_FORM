@@ -5,20 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
+    <link rel="stylesheet" href="css/signup_style.css">
 </head>
 <body>
-    <div>
+    <div class="container">
         <form action="#">
-            <label for="email">Email</label>
-            <input type="text" placeholder="Enter Email" autofocus>
-    
-            <label for="password">Password</label>
-            <input type="password" placeholder="Enter Password" autofocus>
-    
-            <label for="cnfrm_password">Confirm Password</label>
-            <input type="password" placeholder="Confirm Password" autofocus>
-                
-            <input type="button" value="Sign Up">
+            <div class="form-group">
+                <h1>Sign Up</h1>
+                <label for="email">Email</label>
+                <input type="text" class = "form-control" placeholder="Enter Email" autofocus>
+            </div>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class = "form-control" placeholder="Enter Name" autofocus>
+            </div>    
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class = "form-control" placeholder="Enter Password" autofocus>
+            </div>
+            <div class="form-group">
+                <label for="cnfrm_password">Confirm Password</label>
+                <input type="password" class = "form-control" placeholder="Confirm Password" autofocus>
+            </div>
+            <input type="submit" class="btn" value="Sign Up"> <br>
+            Already have an account? <a href="Login.html">Sign in</a>
         </form>
     </div>
 </body>
